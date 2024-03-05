@@ -1,2 +1,2 @@
 # LMS
-A web application for managing school libary informaton
+A web application for managing school library informaton
