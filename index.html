@@ -10,32 +10,40 @@
     />
   </head>
   <body>
-    <h1>LIBRARY MANAGEMENT SYSTEM</h1>
-    <form action="" autocomplete="on" method="post">
-      <div class="input-field">
-        <input
-          id="email"
-          type="email"
-          placeholder="Enter Your Email"
-          required
-        /><br />
-        <input
-          id="password"
-          type="password"
-          name="password"
-          placeholder="Enter Your password"
-          required
-        /><br />
-      </div>
-      <button type="submit">Login</button>
-      <script>
-        result = window.confirm("Do you want to be rememebered?");
-      </script>
+    <section class="section-cta">
+      <div class="page-view">
+        <img src="img/LIBRARY IMAGE.jpg" alt="Background-image" />
+        <div class="form-component">
+          <h1 class="heading-primary">Welcome to the Lib</h1>
 
-      <div class="signup">
-        <p><a href="#" id="forgot">Forgot Password</a></p>
-        <p><a href="signup page.html" id="account">Create an account</a></p>
+          <div class="grid--2-cols">
+            <div class="login-box">
+              <p class="heading-secondary margin-btm">Sign In</p>
+              <form acton="#" class="cta-form flex">
+                <div>
+                  <label for="email">Email Address</label>
+                  <input id="email" type="email" required />
+                </div>
+                <div>
+                  <label for="password">Password</label>
+                  <input id="password" type="password" required />
+                </div>
+                <button class="login-btn">Login</button>
+                <a href="#" class="forgot">Forgot Password?</a>
+              </form>
+            </div>
+            <div class="sign-up-box flex">
+              <p class="sign-up-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Perspiciatis nemo a illo impedit quibusdam odit consequuntur
+                beatae cupiditate quidem provident! In ut molestias amet itaque
+                accusantium quasi officia incidunt voluptatem?
+              </p>
+              <a href="#" class="sign-up-btn">Sign Up</a>
+            </div>
+          </div>
+        </div>
       </div>
-    </form>
+    </section>
   </body>
 </html>
